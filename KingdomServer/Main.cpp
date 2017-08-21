@@ -23,11 +23,11 @@ int main(int argc, char* argv[])
 		sLog.outString("Starting Warleague Server");
 
 
-		sLog.outString("__  _  _______ _______");
-		sLog.outString("\\ \\/ \\/ /\\__  \\\\_  __ \\");
-		sLog.outString(" \\     /  / __ \\|  | \\/");
-		sLog.outString("  \\/\\_/  (____  /__|");
-		sLog.outString("              \\/");
+		sLog.outString("The Server has been Started!!");
+		sLog.outString("-------------------------------------------");
+		sLog.outString("----------Server Run Successful!!----------");
+		sLog.outString("-------------------------------------------");
+
 
 		MysqlConnectionPool::getInstance().initializePool("server", "n6q48D5746G6s3r", "tcp://warleague.fr:3306", "select 0 from dual;");
 
